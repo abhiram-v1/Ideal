@@ -1,0 +1,50 @@
+PDF Converter App - Application Information
+============================================
+
+App Name: Jupyter Notebook to PDF Converter
+Version: 1.0.0
+Developer: Your Name
+License: MIT
+
+Description:
+A professional tool that converts Jupyter Notebooks (.ipynb) to beautifully 
+formatted PDFs with aesthetic styling and multiple conversion methods.
+
+Key Features:
+✅ GUI Interface - User-friendly file selection
+✅ Command Line - For automation and scripting
+✅ Multiple Conversion Methods - Chrome, wkhtmltopdf, manual fallbacks
+✅ Aesthetic Styling - Beautiful backgrounds without affecting content
+✅ Smart Error Handling - Graceful fallbacks and clear guidance
+✅ Cross-Platform - Works on Windows, Linux, and macOS
+
+Files:
+- gui_converter.py: Main GUI application
+- ultimate_converter.py: Command-line version
+- launch_gui.bat: Windows GUI launcher
+- convert.bat: Windows command-line launcher
+- convert.sh: Linux/Mac command-line launcher
+- config.py: Configuration and customization
+- requirements.txt: Python dependencies
+- setup.py: Installation script
+
+Usage:
+1. Install Python 3.7+
+2. Install dependencies: pip install -r requirements.txt
+3. Launch GUI: Double-click launch_gui.bat (Windows) or run python gui_converter.py
+4. Select input .ipynb file
+5. Choose output PDF location
+6. Click Convert!
+
+Requirements:
+- Python 3.7+
+- Google Chrome (for PDF generation)
+- Internet connection (for dependency installation)
+
+Support:
+- Check README.md for detailed documentation
+- Review error messages in the GUI log
+- Try manual conversion if automatic methods fail
+
+This app is designed to be simple yet powerful, making notebook-to-PDF 
+conversion accessible to everyone while maintaining professional quality output.

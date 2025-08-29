@@ -1,0 +1,17 @@
+# PDF Converter App Dependencies
+# Core conversion tool
+nbconvert>=7.0.0
+
+# GUI dependencies (tkinter usually comes with Python)
+# tkinter is included in most Python installations
+
+# Build dependencies (for creating .exe)
+pyinstaller>=5.0.0
+
+# Optional: For advanced PDF conversion
+# wkhtmltopdf (install separately from https://wkhtmltopdf.org/)
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
